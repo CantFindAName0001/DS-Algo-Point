@@ -43,7 +43,7 @@ int countPalindromeSubstrings(char s[])
     return count;
 }
 int main() {
-    char input[10000];
+    char input[100000];
     cin >> input;
     cout << countPalindromeSubstrings(input) << endl;
 }
